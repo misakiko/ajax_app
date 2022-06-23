@@ -26,7 +26,7 @@ function post (){
     // フォームに入力された値を取得する 新しいオブジェクト
     const XHR = new XMLHttpRequest();
     // 非同期通信 xhr変数に代入
-    XHR.open("POST", "/posts", true);
+    XHR.open("POST", "/postss", true);
     // 非同期で使うメソッド open
     XHR.responseType = "json";
     // レスポンスの型  
